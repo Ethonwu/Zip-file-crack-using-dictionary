@@ -28,23 +28,6 @@ def main():
         dict_path = options.dict_name
         path = options.zip_name
         #This old code for porcess parameter
-    """parameter_len = len(sys.argv) # Get How long about my command line info
-    #for i in xrange(1,parameter_len+1,2):
-    for case in switch(sys.argv):
-        if case('-u'):
-            if '.zip' in *(sys.argv+1) == -1:
-                print 'Please enter zip path'
-                break;
-            path = argv_next
-            break
-        if case('-D'):
-            if '.txt' in argv_next == -1:
-                print 'Please enter dict file'
-                dictionary_mode = False
-                break
-            dictionary_mode = True
-            dict_path = argv_next
-            break"""       
         #old code
         #This is to check parameter is compelete or not if true do function
     if dictionary_mode == True:
